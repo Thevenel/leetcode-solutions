@@ -4,7 +4,7 @@ This repository contains my solutions to various coding problems from NeetCode. 
 
 Feel free to explore the code, test the solutions, and contribute your own implementations!
 
-## Arrays
+## Arrays & Hashing
 
 Below are some of the array-related problems I've solved:
 
@@ -25,3 +25,20 @@ Here are some possible approaches to solve the Duplicate Integer Check problem:
     - complexity: O(n) time, O(n) space.
 4. **Dictionary Approach**: Use a dictionary to check if a number occurs more than once in the list.
     - complexity: O(n) time, O(n) space.
+
+
+### Valid Anagram Check
+
+- [Valid Anagram Check](arrays/valid_anagram/): A solution to determine if two strings are anagrams of each other.
+
+### Possible solutions
+Here are some possible approaches to solve the Valid Anagram Check problem:
+
+1. **Sorting Approach**: Sort both strings and compare them.
+    - complexity: O(n log n) time, O(1) space (or O(n) if using a sorting algorithm that requires additional space).
+
+2. **Hash Map Approach**: Use a hash map to count the frequency of each character in both strings and compare the counts.
+    - complexity: O(n) time, O(1) space (since the character set is limited).
+3. **Array Count Approach**: Use an array of fixed size (e.g., 26 for lowercase letters) to count character occurrences.
+    - complexity: O(n) time, O(1) space.
+
