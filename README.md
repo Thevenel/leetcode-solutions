@@ -54,3 +54,17 @@ Here are some possible approaches to solve the Two Sum Problem:
     - complexity: O(n^2) time, O(1) space.
 2. **Hash Map Approach**: Use a hash map to store numbers and their indices, then check if the complement exists.
     - complexity: O(n) time, O(n) space.
+
+### Group Anagrams
+
+- [Group Anagrams](arrays/group_anagrams/): A solution to group a list of strings into anagrams.
+
+#### Possible solutions
+Here are some possible approaches to solve the Group Anagrams problem:
+
+1. **Sorting Approach**: Sort each string and use the sorted string as a key in a hash map to group anagrams.
+    - complexity: O(n k log k) time, O(n k) space, where n is the number of strings and k is the maximum length of a string.
+
+2. **Character Count Approach**: Use a fixed-size array to count character occurrences and use the count as a key in a hash map.
+    - complexity: O(n k) time, O(n k) space, where n is the number of strings and k is the maximum length of a string.
+
