@@ -12,7 +12,7 @@ Below are some of the array-related problems I've solved:
 
 - [Duplicate Integer Check](arrays/duplicate_integer/): A solution to check for duplicate integers in a list.
 
-### Possible solutions
+#### Possible solutions
 
 Here are some possible approaches to solve the Duplicate Integer Check problem:
 
@@ -26,12 +26,12 @@ Here are some possible approaches to solve the Duplicate Integer Check problem:
 4. **Dictionary Approach**: Use a dictionary to check if a number occurs more than once in the list.
     - complexity: O(n) time, O(n) space.
 
-
 ### Valid Anagram Check
 
 - [Valid Anagram Check](arrays/valid_anagram/): A solution to determine if two strings are anagrams of each other.
 
-### Possible solutions
+#### Possible solutions
+
 Here are some possible approaches to solve the Valid Anagram Check problem:
 
 1. **Sorting Approach**: Sort both strings and compare them.
@@ -42,3 +42,15 @@ Here are some possible approaches to solve the Valid Anagram Check problem:
 3. **Array Count Approach**: Use an array of fixed size (e.g., 26 for lowercase letters) to count character occurrences.
     - complexity: O(n) time, O(1) space.
 
+### Two Sum Problem
+
+- [Two Sum Problem](arrays/two_sum/): A solution to find two numbers in a list that add up to a target value.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Two Sum Problem:
+
+1. **Brute Force Approach**: Check all pairs of numbers in the list.
+    - complexity: O(n^2) time, O(1) space.
+2. **Hash Map Approach**: Use a hash map to store numbers and their indices, then check if the complement exists.
+    - complexity: O(n) time, O(n) space.
