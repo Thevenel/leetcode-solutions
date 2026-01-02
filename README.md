@@ -68,3 +68,16 @@ Here are some possible approaches to solve the Group Anagrams problem:
 2. **Character Count Approach**: Use a fixed-size array to count character occurrences and use the count as a key in a hash map.
     - complexity: O(n k) time, O(n k) space, where n is the number of strings and k is the maximum length of a string.
 
+
+### Top K Frequent Elements
+
+- [Top K Frequent Elements](arrays/top_k_frequent/): A solution to find the k most frequent elements in a list.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Top K Frequent Elements problem:
+
+1. **Hash Map and Sorting Approach**: Use a hash map to count frequencies, then sort the elements by frequency.
+    - complexity: O(n log n) time, O(n) space.
+2. **Bucket Sort Approach**: Use a hash map to count frequencies, then place elements in buckets based on their frequency and collect the top k elements.
+    - complexity: O(n) time, O(n) space.
