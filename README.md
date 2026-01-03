@@ -81,3 +81,17 @@ Here are some possible approaches to solve the Top K Frequent Elements problem:
     - complexity: O(n log n) time, O(n) space.
 2. **Bucket Sort Approach**: Use a hash map to count frequencies, then place elements in buckets based on their frequency and collect the top k elements.
     - complexity: O(n) time, O(n) space.
+
+### Encode and Decode Strings
+
+- [Encode and Decode Strings](arrays/encode_decode_strings/): A solution to encode a list of strings into a single string and decode it back.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Encode and Decode Strings problem:
+
+1. **Delimiter Approach**: Use a special delimiter to separate strings in the encoded string.
+    - complexity: O(n) time, O(n) space.
+
+2. **Length Prefix Approach**: Prefix each string with its length to facilitate decoding.
+    - complexity: O(n) time, O(n) space.
