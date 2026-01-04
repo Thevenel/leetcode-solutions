@@ -95,3 +95,14 @@ Here are some possible approaches to solve the Encode and Decode Strings problem
 
 2. **Length Prefix Approach**: Prefix each string with its length to facilitate decoding.
     - complexity: O(n) time, O(n) space.
+
+### Product of Array Except Self
+
+- [Product of Array Except Self](arrays/product_of_array_except_self/): A solution to find the product of all elements in an array except for the current element.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Product of Array Except Self problem:
+
+1. **Prefix and Suffix Products**: Calculate prefix and suffix products for each element.
+    - complexity: O(n) time, O(1) space (excluding output array).
