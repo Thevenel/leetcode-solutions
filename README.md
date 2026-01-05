@@ -106,3 +106,14 @@ Here are some possible approaches to solve the Product of Array Except Self prob
 
 1. **Prefix and Suffix Products**: Calculate prefix and suffix products for each element.
     - complexity: O(n) time, O(1) space (excluding output array).
+
+### Valid Sudoku
+
+- [Valid Sudoku](arrays/valid_sudoku/): A solution to determine if a 9x9 Sudoku board is valid.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Valid Sudoku problem:
+
+1. **Hash Set Approach**: Use hash sets to track seen numbers in rows, columns, and 3x3 sub-boxes.
+    - complexity: O(1) time, O(1) space (since the board size is fixed).
