@@ -117,3 +117,15 @@ Here are some possible approaches to solve the Valid Sudoku problem:
 
 1. **Hash Set Approach**: Use hash sets to track seen numbers in rows, columns, and 3x3 sub-boxes.
     - complexity: O(1) time, O(1) space (since the board size is fixed).
+
+
+### Longest Consecutive Sequence
+
+- [Longest Consecutive Sequence](arrays/longest_consecutive_sequence/): A solution to find the length of the longest consecutive elements sequence in an array.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Longest Consecutive Sequence problem:
+
+1. **Hash Set Approach**: Use a hash set to store elements and check for the start of sequences.
+    - complexity: O(n) time, O(n) space.
