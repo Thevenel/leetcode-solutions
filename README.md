@@ -144,3 +144,17 @@ Here are some possible approaches to solve the Valid Palindrome problem:
 2. **Reverse and Compare**: Clean the string and compare it to its reverse.
     - complexity: O(n) time, O(n) space.
 
+
+### Two Sum II - Input Array Is Sorted
+
+- [Two Sum II - Input Array Is Sorted](two_pointers/two_sum_input_array_is_sorted/): A solution to find two numbers in a sorted array that add up to a target value.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Two Sum II - Input Array Is Sorted problem:
+
+1. **Brute Force Approach**: Check all pairs of numbers in the sorted array.
+    - complexity: O(n^2) time, O(1) space.
+2. **Two-Pointer Technique**: Use two pointers, one at the start and one at the end of the array, to find the target sum.
+    - complexity: O(n) time, O(1) space.
+
