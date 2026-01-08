@@ -129,3 +129,18 @@ Here are some possible approaches to solve the Longest Consecutive Sequence prob
 
 1. **Hash Set Approach**: Use a hash set to store elements and check for the start of sequences.
     - complexity: O(n) time, O(n) space.
+
+### Valid Palindrome
+
+- [Valid Palindrome](two_pointers/valid_palindrome/): A solution to determine if a string is a palindrome, considering only alphanumeric characters and ignoring cases.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Valid Palindrome problem:
+
+1. **Two-Pointer Technique**: Use two pointers to compare characters from the beginning and end of the string, moving towards the center.
+    - complexity: O(n) time, O(1) space.
+
+2. **Reverse and Compare**: Clean the string and compare it to its reverse.
+    - complexity: O(n) time, O(n) space.
+
