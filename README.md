@@ -158,3 +158,13 @@ Here are some possible approaches to solve the Two Sum II - Input Array Is Sorte
 2. **Two-Pointer Technique**: Use two pointers, one at the start and one at the end of the array, to find the target sum.
     - complexity: O(n) time, O(1) space.
 
+### Three Sum
+
+- [Three Sum](two_pointers/three_sum/): A solution to find all unique triplets in an array that sum up to zero.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Three Sum problem:
+
+1. **Sorting and Two-Pointer Technique**: Sort the array and use a two-pointer approach for each element to find pairs that sum to the negative of the current element.
+    - complexity: O(n^2) time, O(1) space (excluding output).
