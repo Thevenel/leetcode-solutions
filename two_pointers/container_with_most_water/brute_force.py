@@ -5,9 +5,6 @@ class Solution:
         for i in range(n):
             for j in range(i + 1, n):
                 current_area = min(heights[i], heights[j]) * (j - i)
-                print("j:", j)
-                print("i", i)
-                print("j - 1:",  j - 1)
                 max_area = max(current_area, max_area)
                 
         return max_area
