@@ -168,3 +168,16 @@ Here are some possible approaches to solve the Three Sum problem:
 
 1. **Sorting and Two-Pointer Technique**: Sort the array and use a two-pointer approach for each element to find pairs that sum to the negative of the current element.
     - complexity: O(n^2) time, O(1) space (excluding output).
+
+### Container With Most Water
+
+- [Container With Most Water](two_pointers/container_with_most_water/): A solution to find two lines that together with the x-axis form a container that holds the most water.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Container With Most Water problem:
+
+1. **Brute Force Approach**: Check all pairs of lines to calculate the area.
+    - complexity: O(n^2) time, O(1) space.
+2. **Two-Pointer Technique**: Use two pointers at the beginning and end of the array and move them towards each other to find the maximum area.
+    - complexity: O(n) time, O(1) space.
