@@ -181,3 +181,15 @@ Here are some possible approaches to solve the Container With Most Water problem
     - complexity: O(n^2) time, O(1) space.
 2. **Two-Pointer Technique**: Use two pointers at the beginning and end of the array and move them towards each other to find the maximum area.
     - complexity: O(n) time, O(1) space.
+
+
+### Trapping Rain Water
+
+- [Trapping Rain Water](two_pointers/trapping_rain_water/): A solution to calculate how much water can be trapped after raining.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Trapping Rain Water problem:
+
+1. **Two-Pointer Technique**: Use two pointers to traverse the array from both ends, keeping track of the maximum heights seen so far.
+    - complexity: O(n) time, O(1) space.
