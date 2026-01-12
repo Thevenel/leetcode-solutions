@@ -130,6 +130,11 @@ Here are some possible approaches to solve the Longest Consecutive Sequence prob
 1. **Hash Set Approach**: Use a hash set to store elements and check for the start of sequences.
     - complexity: O(n) time, O(n) space.
 
+
+## Two Pointers
+
+Below are some of the two-pointer related problems I've solved:
+
 ### Valid Palindrome
 
 - [Valid Palindrome](two_pointers/valid_palindrome/): A solution to determine if a string is a palindrome, considering only alphanumeric characters and ignoring cases.
@@ -192,4 +197,20 @@ Here are some possible approaches to solve the Container With Most Water problem
 Here are some possible approaches to solve the Trapping Rain Water problem:
 
 1. **Two-Pointer Technique**: Use two pointers to traverse the array from both ends, keeping track of the maximum heights seen so far.
+    - complexity: O(n) time, O(1) space.
+
+
+## Sliding Window
+
+Below are some of the sliding window related problems I've solved:
+
+### Best Time to Buy and Sell Stock
+
+- [Best Time to Buy and Sell Stock](sliding_window/best_time_to_buy_and_sell_stock/): A solution to find the maximum profit from a single buy and sell of stock.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Best Time to Buy and Sell Stock problem:
+
+1. **Single Pass Approach**: Traverse the price list while keeping track of the minimum price and calculating the maximum profit at each step.
     - complexity: O(n) time, O(1) space.
