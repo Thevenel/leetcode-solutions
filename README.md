@@ -214,3 +214,15 @@ Here are some possible approaches to solve the Best Time to Buy and Sell Stock p
 
 1. **Single Pass Approach**: Traverse the price list while keeping track of the minimum price and calculating the maximum profit at each step.
     - complexity: O(n) time, O(1) space.
+
+
+### Longest Substring Without Repeating Characters
+
+- [Longest Substring Without Repeating Characters](sliding_window/longest_substring_without_repeating_characters/): A solution to find the length of the longest substring without repeating characters.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Longest Substring Without Repeating Characters problem:
+
+1. **Sliding Window with Set**: Use a sliding window approach with a hash set to track the characters in the current window.
+    - complexity: O(n) time, O(min(m, n)) space, where m is the size of the character set.
