@@ -226,3 +226,18 @@ Here are some possible approaches to solve the Longest Substring Without Repeati
 
 1. **Sliding Window with Set**: Use a sliding window approach with a hash set to track the characters in the current window.
     - complexity: O(n) time, O(min(m, n)) space, where m is the size of the character set.
+
+
+### Longest Repeating Character Replacement
+
+- [Longest Repeating Character Replacement](sliding_window/longest_repeating_character_replacement/): A solution to find the length of the longest substring that can be obtained by replacing at most k characters.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Longest Repeating Character Replacement problem:
+
+1. **Sliding Window with Frequency Count**: Use a sliding window approach while maintaining the count of the most frequent character in the current window.
+    - complexity: O(n) time, O(1) space (since the character set is limited).
+2. **Sliding Window with Hash Map**: Use a sliding window approach with a hash map to track character frequencies.
+    - complexity: O(n) time, O(1) space (since the character set is limited).
+
