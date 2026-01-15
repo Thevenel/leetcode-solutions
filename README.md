@@ -241,3 +241,13 @@ Here are some possible approaches to solve the Longest Repeating Character Repla
 2. **Sliding Window with Hash Map**: Use a sliding window approach with a hash map to track character frequencies.
     - complexity: O(n) time, O(1) space (since the character set is limited).
 
+
+### Permutation in String
+- [Permutation in String](sliding_window/permutation_in_string/): A solution to check if one string's permutation is a substring of another string.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Permutation in String problem:
+
+1. **Sliding Window with Frequency Count**: Use a sliding window approach with frequency counts of characters to check for permutations.
+    - complexity: O(n) time, O(1) space (since the character set is limited).
