@@ -251,3 +251,14 @@ Here are some possible approaches to solve the Permutation in String problem:
 
 1. **Sliding Window with Frequency Count**: Use a sliding window approach with frequency counts of characters to check for permutations.
     - complexity: O(n) time, O(1) space (since the character set is limited).
+
+### Minimum Window Substring
+
+- [Minimum Window Substring](sliding_window/minimum_window_substring/): A solution to find the minimum window substring in a string that contains all characters of another string.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Minimum Window Substring problem:
+
+1. **Sliding Window with Hash Map**: Use a sliding window approach with a hash map to track character frequencies and find the minimum window.
+    - complexity: O(n) time, O(m) space, where m is the size of the character set in the target string.
