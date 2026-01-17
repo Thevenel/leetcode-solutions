@@ -262,3 +262,15 @@ Here are some possible approaches to solve the Minimum Window Substring problem:
 
 1. **Sliding Window with Hash Map**: Use a sliding window approach with a hash map to track character frequencies and find the minimum window.
     - complexity: O(n) time, O(m) space, where m is the size of the character set in the target string.
+
+
+### Sliding Window Maximum
+
+- [Sliding Window Maximum](sliding_window/sliding_window_maximum/): A solution to find the maximum value in each sliding window of size k in an array.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Sliding Window Maximum problem:
+
+1. **Deque Approach**: Use a deque to maintain the indices of useful elements in the current window.
+    - complexity: O(n) time, O(k) space.
