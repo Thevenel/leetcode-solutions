@@ -274,3 +274,19 @@ Here are some possible approaches to solve the Sliding Window Maximum problem:
 
 1. **Deque Approach**: Use a deque to maintain the indices of useful elements in the current window.
     - complexity: O(n) time, O(k) space.
+
+
+## Stacks
+
+Below are some of the stack-related problems I've solved:
+
+### Valid Parentheses
+
+- [Valid Parentheses](stacks/valid_parentheses/): A solution to determine if a string of parentheses is valid.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Valid Parentheses problem:
+
+1. **Stack Approach**: Use a stack to keep track of opening parentheses and match them with closing ones.
+    - complexity: O(n) time, O(n) space.
