@@ -290,3 +290,16 @@ Here are some possible approaches to solve the Valid Parentheses problem:
 
 1. **Stack Approach**: Use a stack to keep track of opening parentheses and match them with closing ones.
     - complexity: O(n) time, O(n) space.
+
+
+### Min Stack
+
+- [Min Stack](stacks/min_stack/): A solution to implement a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Min Stack problem:
+
+1. **Two Stack Approach**: Use one stack for the main stack and another stack to keep track of the minimum elements.
+    - complexity: O(1) time for all operations, O(n) space.
+    
