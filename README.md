@@ -302,4 +302,15 @@ Here are some possible approaches to solve the Min Stack problem:
 
 1. **Two Stack Approach**: Use one stack for the main stack and another stack to keep track of the minimum elements.
     - complexity: O(1) time for all operations, O(n) space.
-    
+
+
+### Evaluate Reverse Polish Notation
+
+- [Evaluate Reverse Polish Notation](stacks/evaluate_reverse_polish_notation/): A solution to evaluate the value of an arithmetic expression in Reverse Polish Notation.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Evaluate Reverse Polish Notation problem:
+
+1. **Stack Approach**: Use a stack to evaluate the expression by pushing numbers and popping them for operations.
+    - complexity: O(n) time, O(n) space.
