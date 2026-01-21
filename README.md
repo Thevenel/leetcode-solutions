@@ -314,3 +314,15 @@ Here are some possible approaches to solve the Evaluate Reverse Polish Notation 
 
 1. **Stack Approach**: Use a stack to evaluate the expression by pushing numbers and popping them for operations.
     - complexity: O(n) time, O(n) space.
+
+
+### Daily Temperatures
+
+- [Daily Temperatures](stacks/daily_temperatures/): A solution to find the number of days until a warmer temperature for each day in a list.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Daily Temperatures problem:
+
+1. **Monotonic Stack Approach**: Use a stack to keep track of indices of temperatures and calculate the number of days until a warmer temperature.
+    - complexity: O(n) time, O(n) space.
