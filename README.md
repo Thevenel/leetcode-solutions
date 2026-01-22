@@ -326,3 +326,15 @@ Here are some possible approaches to solve the Daily Temperatures problem:
 
 1. **Monotonic Stack Approach**: Use a stack to keep track of indices of temperatures and calculate the number of days until a warmer temperature.
     - complexity: O(n) time, O(n) space.
+
+
+### Car Fleet
+
+- [Car Fleet](stacks/car_fleet/): A solution to determine the number of car fleets that will arrive at a destination.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Car Fleet problem:
+
+1. **Stack Approach**: Sort cars by their starting positions and use a stack to determine fleets based on their arrival times.
+    - complexity: O(n log n) time, O(n) space.
