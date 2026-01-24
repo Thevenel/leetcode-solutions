@@ -338,3 +338,29 @@ Here are some possible approaches to solve the Car Fleet problem:
 
 1. **Stack Approach**: Sort cars by their starting positions and use a stack to determine fleets based on their arrival times.
     - complexity: O(n log n) time, O(n) space.
+
+### Largest Rectangle in Histogram
+
+- [Largest Rectangle in Histogram](stacks/largest_rectangle_in_histogram/): A solution to find the largest rectangle area in a histogram.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Largest Rectangle in Histogram problem:
+
+1. **Stack Approach**: Use a stack to keep track of indices of histogram bars and calculate the maximum area.
+    - complexity: O(n) time, O(n) space.
+
+## Binary Search
+
+Below are some of the binary search-related problems I've solved:
+
+### Binary Search
+
+- [Binary Search](binary_search/binary_search/): A solution to perform binary search on a sorted array.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Binary Search problem:
+
+1. **Iterative Approach**: Use a loop to repeatedly divide the search interval in half.
+    - complexity: O(log n) time, O(1) space.
