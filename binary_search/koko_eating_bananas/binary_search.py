@@ -1,0 +1,25 @@
+import math
+
+
+class Solution:
+    def minEatingSpeed(self, piles: list[int], h: int) -> int:
+        l, r = 1, max(piles)
+        res = r
+        
+        while l <= r:
+            k = (l + r) // 2
+            hours = 0
+            for p in piles:
+                hours += math.ceil(p / k)
+            
+            if hours <= h:
+                res = min(res, k)
+                r = k - 1
+            else:
+                l = k + 1
+        return res
+# Example usage:
+solution = Solution()
+print(solution.minEatingSpeed([3,6,7,11], 8))  # Output: 4
+print(solution.minEatingSpeed([30,11,23,4,20], 5))  # Output: 30
+print(solution.minEatingSpeed([30,11,23,4,20], 6))  # Output: 23
