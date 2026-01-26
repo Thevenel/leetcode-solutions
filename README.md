@@ -364,3 +364,26 @@ Here are some possible approaches to solve the Binary Search problem:
 
 1. **Iterative Approach**: Use a loop to repeatedly divide the search interval in half.
     - complexity: O(log n) time, O(1) space.
+
+### Search in 2D Matrix
+
+- [Search in 2D Matrix](binary_search/search_in_2d_matrix/): A solution to search for a target value in a 2D matrix.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Search in 2D Matrix problem:
+
+1. **Flattened Binary Search**: Treat the 2D matrix as a 1D sorted array and perform binary search.
+    - complexity: O(log(m*n)) time, O(1) space, where m is the number of rows and n is the number of columns.
+
+
+### Koko Eating Bananas
+
+- [Koko Eating Bananas](binary_search/koko_eating_bananas/): A solution to find the minimum eating speed for Koko to finish all bananas within a given time.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Koko Eating Bananas problem:
+
+1. **Binary Search on Eating Speed**: Use binary search to find the minimum eating speed that allows Koko to finish the bananas in time.
+    - complexity: O(n log m) time, O(1) space, where n is the number of piles and m is the maximum number of bananas in a pile.
