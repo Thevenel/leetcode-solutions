@@ -387,3 +387,14 @@ Here are some possible approaches to solve the Koko Eating Bananas problem:
 
 1. **Binary Search on Eating Speed**: Use binary search to find the minimum eating speed that allows Koko to finish the bananas in time.
     - complexity: O(n log m) time, O(1) space, where n is the number of piles and m is the maximum number of bananas in a pile.
+
+### Find Minimum in Rotated Sorted Array
+
+- [Find Minimum in Rotated Sorted Array](binary_search/find_minimum_in_rotated_sorted_array/): A solution to find the minimum element in a rotated sorted array.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Find Minimum in Rotated Sorted Array problem:
+
+1. **Modified Binary Search**: Use binary search to find the point of rotation and identify the minimum element.
+    - complexity: O(log n) time, O(1) space.
