@@ -398,3 +398,17 @@ Here are some possible approaches to solve the Find Minimum in Rotated Sorted Ar
 
 1. **Modified Binary Search**: Use binary search to find the point of rotation and identify the minimum element.
     - complexity: O(log n) time, O(1) space.
+
+### Search in Rotated Sorted Array
+
+- [Search in Rotated Sorted Array](binary_search/search_in_rotated_sorted_array/): A solution to search for a target value in a rotated sorted array.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Search in Rotated Sorted Array problem:
+
+1. **Brute Force Approach**: Iterate through the array to find the target value.
+    - complexity: O(n) time, O(1) space.
+
+2. **Modified Binary Search**: Use binary search while accounting for the rotation to find the target value.
+    - complexity: O(log n) time, O(1) space.
