@@ -412,3 +412,15 @@ Here are some possible approaches to solve the Search in Rotated Sorted Array pr
 
 2. **Modified Binary Search**: Use binary search while accounting for the rotation to find the target value.
     - complexity: O(log n) time, O(1) space.
+
+
+### Time Based Key-Value Store
+
+- [Time Based Key-Value Store](binary_search/time_based_key_value_store/): A solution to implement a time-based key-value store.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Time Based Key-Value Store problem:
+
+1. **Binary Search on Timestamps**: Use a hash map to store lists of (timestamp, value) pairs for each key and perform binary search on the timestamps to retrieve values.
+    - complexity: O(log n) time for get operations, O(1) time for set operations, O(m) space, where n is the number of timestamps for a key and m is the total number of entries.
