@@ -424,3 +424,16 @@ Here are some possible approaches to solve the Time Based Key-Value Store proble
 
 1. **Binary Search on Timestamps**: Use a hash map to store lists of (timestamp, value) pairs for each key and perform binary search on the timestamps to retrieve values.
     - complexity: O(log n) time for get operations, O(1) time for set operations, O(m) space, where n is the number of timestamps for a key and m is the total number of entries.
+
+### Median of Two Sorted Arrays
+
+- [Median of Two Sorted Arrays](binary_search/median_two_sorted_arrays/): A solution to find the median of two sorted arrays.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Median of Two Sorted Arrays problem:
+
+1. **Merge and Find Median**: Merge the two arrays and find the median of the merged array.
+    - complexity: O(m + n) time, O(m + n) space, where m and n are the lengths of the two arrays.
+2. **Binary Search Approach**: Use binary search to partition the arrays and find the median without fully merging them.
+    - complexity: O(log(min(m, n))) time, O(1) space, where m and n are the lengths of the two arrays.
