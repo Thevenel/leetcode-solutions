@@ -437,3 +437,22 @@ Here are some possible approaches to solve the Median of Two Sorted Arrays probl
     - complexity: O(m + n) time, O(m + n) space, where m and n are the lengths of the two arrays.
 2. **Binary Search Approach**: Use binary search to partition the arrays and find the median without fully merging them.
     - complexity: O(log(min(m, n))) time, O(1) space, where m and n are the lengths of the two arrays.
+
+
+## Linked Lists
+
+Below are some of the linked list-related problems I've solved:
+
+### Reverse Linked List
+
+- [Reverse Linked List](linkedlists/reverse_linked_list/): A solution to reverse a singly linked list.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Reverse Linked List problem:
+
+1. **Iterative Two-Pointer Approach**: Use two pointers to reverse the linked list iteratively.
+    - complexity: O(n) time, O(1) space.
+
+2. **Recursive Approach**: Use recursion to reverse the linked list.
+    - complexity: O(n) time, O(n) space (due to recursion stack).
