@@ -456,3 +456,15 @@ Here are some possible approaches to solve the Reverse Linked List problem:
 
 2. **Recursive Approach**: Use recursion to reverse the linked list.
     - complexity: O(n) time, O(n) space (due to recursion stack).
+
+
+### Merge Two Sorted Lists
+
+- [Merge Two Sorted Lists](linkedlists/merge_two_sorted_lists/): A solution to merge two sorted linked lists into one sorted linked list.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Merge Two Sorted Lists problem:
+
+1. **Iterative Approach**: Use pointers to traverse both lists and merge them into a new sorted list.
+    - complexity: O(n + m) time, O(1) space, where n and m are the lengths of the two lists.
