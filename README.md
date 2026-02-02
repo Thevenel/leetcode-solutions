@@ -468,3 +468,15 @@ Here are some possible approaches to solve the Merge Two Sorted Lists problem:
 
 1. **Iterative Approach**: Use pointers to traverse both lists and merge them into a new sorted list.
     - complexity: O(n + m) time, O(1) space, where n and m are the lengths of the two lists.
+
+
+### Linked List Cycle Detection
+
+- [Linked List Cycle Detection](linkedlists/linked_list_cycle_detection/): A solution to detect if a linked list has a cycle.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Linked List Cycle Detection problem:
+
+1. **Floyd's Tortoise and Hare Algorithm**: Use two pointers moving at different speeds to detect a cycle.
+    - complexity: O(n) time, O(1) space.
