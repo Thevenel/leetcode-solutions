@@ -480,3 +480,14 @@ Here are some possible approaches to solve the Linked List Cycle Detection probl
 
 1. **Floyd's Tortoise and Hare Algorithm**: Use two pointers moving at different speeds to detect a cycle.
     - complexity: O(n) time, O(1) space.
+
+### Reorder List
+
+- [Reorder List](linkedlists/reorder_list/): A solution to reorder a linked list in a specific pattern.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Reorder List problem:
+
+1. **Find Middle, Reverse Second Half, Merge**: Find the middle of the list, reverse the second half, and then merge the two halves.
+    - complexity: O(n) time, O(1) space.ef head:
