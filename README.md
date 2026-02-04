@@ -491,3 +491,14 @@ Here are some possible approaches to solve the Reorder List problem:
 
 1. **Find Middle, Reverse Second Half, Merge**: Find the middle of the list, reverse the second half, and then merge the two halves.
     - complexity: O(n) time, O(1) space.ef head:
+
+### Remove Nth Node From End of List
+
+- [Remove Nth Node From End of List](linkedlists/remove_nth_node_from_end_of_list/): A solution to remove the nth node from the end of a linked list.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Remove Nth Node From End of List problem:
+
+1. **Two-Pointer Approach**: Use two pointers to find the nth node from the end and remove it.
+    - complexity: O(n) time, O(1) space.
