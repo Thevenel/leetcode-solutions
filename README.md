@@ -502,3 +502,14 @@ Here are some possible approaches to solve the Remove Nth Node From End of List 
 
 1. **Two-Pointer Approach**: Use two pointers to find the nth node from the end and remove it.
     - complexity: O(n) time, O(1) space.
+
+### Copy List with Random Pointer
+
+- [Copy List with Random Pointer](linkedlists/copy_list_with_random_pointer/): A solution to create a deep copy of a linked list with random pointers.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Copy List with Random Pointer problem:
+
+1. **Hash Map Approach**: Use a hash map to store the mapping of original nodes to their copies and handle random pointers.
+    - complexity: O(n) time, O(n) space.
