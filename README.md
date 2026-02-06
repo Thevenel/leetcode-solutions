@@ -513,3 +513,14 @@ Here are some possible approaches to solve the Copy List with Random Pointer pro
 
 1. **Hash Map Approach**: Use a hash map to store the mapping of original nodes to their copies and handle random pointers.
     - complexity: O(n) time, O(n) space.
+
+### Add Two Numbers
+
+- [Add Two Numbers](linkedlists/add_two_numbers/): A solution to add two numbers represented as linked lists.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Add Two Numbers problem:
+
+1. **Iterative Approach**: Traverse both linked lists, add corresponding digits, and handle carry.
+    - complexity: O(max(m, n)) time, O(max(m, n)) space, where m and n are the lengths of the two lists.
