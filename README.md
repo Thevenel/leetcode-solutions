@@ -524,3 +524,15 @@ Here are some possible approaches to solve the Add Two Numbers problem:
 
 1. **Iterative Approach**: Traverse both linked lists, add corresponding digits, and handle carry.
     - complexity: O(max(m, n)) time, O(max(m, n)) space, where m and n are the lengths of the two lists.
+
+
+### Find the duplicate Number
+
+- [Find the duplicate Number](linkedlists/find_duplicate_number/): A solution to find the duplicate number in an array where numbers are in the range 1 to n.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Find the Duplicate Number problem:
+
+1. **Floyd's Tortoise and Hare Algorithm**: Use two pointers to detect a cycle in the linked list representation of the array.
+    - complexity: O(n) time, O(1) space.
