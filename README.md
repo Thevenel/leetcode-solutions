@@ -536,3 +536,15 @@ Here are some possible approaches to solve the Find the Duplicate Number problem
 
 1. **Floyd's Tortoise and Hare Algorithm**: Use two pointers to detect a cycle in the linked list representation of the array.
     - complexity: O(n) time, O(1) space.
+
+### LRU Cache
+
+- [LRU Cache](linkedlists/lru_cache/): A solution to implement a Least Recently Used (LRU) cache.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the LRU Cache problem:
+
+1. **Doubly Linked List and Hash Map**: Use a doubly linked list to maintain the order of usage and a hash map for O(1) access to cache items.
+    - complexity: O(1) time for get and put operations, O(capacity) space.
+    
