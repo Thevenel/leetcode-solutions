@@ -547,4 +547,15 @@ Here are some possible approaches to solve the LRU Cache problem:
 
 1. **Doubly Linked List and Hash Map**: Use a doubly linked list to maintain the order of usage and a hash map for O(1) access to cache items.
     - complexity: O(1) time for get and put operations, O(capacity) space.
-    
+
+
+### Merge k Sorted Lists
+
+- [Merge k Sorted Lists](linkedlists/merge_k_sorted_list/): A solution to merge k sorted linked lists into one sorted linked list.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Merge k Sorted Lists problem:
+
+1. **Merge Sort Approach**: Use a divide and conquer approach to merge the lists pairwise.
+    - complexity: O(n log k) time, O(1) space, where n is the total number of nodes and k is the number of lists.
