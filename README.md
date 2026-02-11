@@ -560,7 +560,6 @@ Here are some possible approaches to solve the Merge k Sorted Lists problem:
 1. **Merge Sort Approach**: Use a divide and conquer approach to merge the lists pairwise.
     - complexity: O(n log k) time, O(1) space, where n is the total number of nodes and k is the number of lists.
 
-
 ### Reverse Nodes in k-Group
 
 - [Reverse Nodes in k-Group](linkedlists/reverse_node_in_k_group/): A solution to reverse nodes in k-group in a linked list.
@@ -571,3 +570,19 @@ Here are some possible approaches to solve the Reverse Nodes in k-Group problem:
 
 1. **Iterative Approach**: Use an iterative approach to reverse nodes in groups of k.
     - complexity: O(n) time, O(1) space.
+
+
+## Trees
+
+Below are some of the tree-related problems I've solved:
+
+### Invert Binary Tree
+
+- [Invert Binary Tree](trees/invert_binary_tree/): A solution to invert a binary tree.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Invert Binary Tree problem:
+
+1. **Recursive Approach**: Recursively swap the left and right children of each node.
+    - complexity: O(n) time, O(n) space (due to recursion stack).
