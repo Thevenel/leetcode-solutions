@@ -586,3 +586,18 @@ Here are some possible approaches to solve the Invert Binary Tree problem:
 
 1. **Recursive Approach**: Recursively swap the left and right children of each node.
     - complexity: O(n) time, O(n) space (due to recursion stack).
+
+
+### Maximum Depth of Binary Tree 
+
+- [Maximum Depth of Binary Tree](trees/maximum_depth_of_binary_tree/): A solution to find the maximum depth of a binary tree. 
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Maximum Depth of Binary Tree problem:
+
+1. **Recursive Approach**: Recursively calculate the depth of left and right subtrees and return the maximum. - complexity: O(n) time, O(n) space (due to recursion stack). 
+
+2. **Iterative Approach**: Use a queue for level order traversal to calculate the depth iteratively. - complexity: O(n) time, O(n) space.
+
+3. **Depth-First Search (DFS)**: Use a stack to perform DFS and calculate the depth. - complexity: O(n) time, O(n) space (due to stack).
