@@ -601,3 +601,15 @@ Here are some possible approaches to solve the Maximum Depth of Binary Tree prob
 2. **Iterative Approach**: Use a queue for level order traversal to calculate the depth iteratively. - complexity: O(n) time, O(n) space.
 
 3. **Depth-First Search (DFS)**: Use a stack to perform DFS and calculate the depth. - complexity: O(n) time, O(n) space (due to stack).
+
+
+### Diameter of Binary Tree
+
+- [Diameter of Binary Tree](trees/diameter_of_binary_tree/): A solution to find the diameter of a binary tree.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Diameter of Binary Tree problem:
+
+1. **Recursive Approach**: Use a recursive function to calculate the depth of the tree while updating the diameter at each node.
+    - complexity: O(n) time, O(n) space (due to recursion stack).
