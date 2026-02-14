@@ -602,7 +602,6 @@ Here are some possible approaches to solve the Maximum Depth of Binary Tree prob
 
 3. **Depth-First Search (DFS)**: Use a stack to perform DFS and calculate the depth. - complexity: O(n) time, O(n) space (due to stack).
 
-
 ### Diameter of Binary Tree
 
 - [Diameter of Binary Tree](trees/diameter_of_binary_tree/): A solution to find the diameter of a binary tree.
