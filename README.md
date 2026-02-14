@@ -612,3 +612,14 @@ Here are some possible approaches to solve the Diameter of Binary Tree problem:
 
 1. **Recursive Approach**: Use a recursive function to calculate the depth of the tree while updating the diameter at each node.
     - complexity: O(n) time, O(n) space (due to recursion stack).
+
+### Balanced Binary Tree
+
+- [Balanced Binary Tree](trees/balanced_binary_tree/): A solution to determine if a binary tree is height-balanced.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Balanced Binary Tree problem:
+
+1. **Recursive Approach**: Use a recursive function to check the height of the tree and determine if it is balanced.
+    - complexity: O(n) time, O(n) space (due to recursion stack).
