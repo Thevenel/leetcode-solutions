@@ -623,3 +623,15 @@ Here are some possible approaches to solve the Balanced Binary Tree problem:
 
 1. **Recursive Approach**: Use a recursive function to check the height of the tree and determine if it is balanced.
     - complexity: O(n) time, O(n) space (due to recursion stack).
+
+
+### Same Tree
+
+- [Same Tree](trees/same_tree/): A solution to determine if two binary trees are the same.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Same Tree problem:
+
+1. **Recursive Approach**: Use a recursive function to compare the values and structure of both trees.
+    - complexity: O(n) time, O(n) space (due to recursion stack).
