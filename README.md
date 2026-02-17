@@ -646,3 +646,14 @@ Here are some possible approaches to solve the Subtree of Another Tree problem:
 
 1. **Recursive Approach**: Use a recursive function to check if the trees are the same at each node of the larger tree.
     - complexity: O(m * n) time, O(n) space (due to recursion stack), where m and n are the number of nodes in the two trees.
+
+### Lowest Common Ancestor of a Binary Tree
+
+- [Lowest Common Ancestor of a Binary Tree](trees/lowest_common_ancestor_of_binary_tree/): A solution to find the lowest common ancestor of two nodes in a binary tree.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Lowest Common Ancestor of a Binary Tree problem:
+
+1. **Iterative Approach**: Compare the current val with the target nodes and traverse the tree iteratively to find the lowest common ancestor.
+    - complexity: O(n) time, O(1) space.
