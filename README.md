@@ -635,3 +635,14 @@ Here are some possible approaches to solve the Same Tree problem:
 
 1. **Recursive Approach**: Use a recursive function to compare the values and structure of both trees.
     - complexity: O(n) time, O(n) space (due to recursion stack).
+
+### Subtree of Another Tree
+
+- [Subtree of Another Tree](trees/subtree_of_another_tree/): A solution to determine if one binary tree is a subtree of another binary tree.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Subtree of Another Tree problem:
+
+1. **Recursive Approach**: Use a recursive function to check if the trees are the same at each node of the larger tree.
+    - complexity: O(m * n) time, O(n) space (due to recursion stack), where m and n are the number of nodes in the two trees.
