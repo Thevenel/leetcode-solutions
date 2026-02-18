@@ -657,3 +657,16 @@ Here are some possible approaches to solve the Lowest Common Ancestor of a Binar
 
 1. **Iterative Approach**: Compare the current val with the target nodes and traverse the tree iteratively to find the lowest common ancestor.
     - complexity: O(n) time, O(1) space.
+
+
+### Binary Tree Level Order Traversal
+
+- [Binary Tree Level Order Traversal](trees/binary_tree_level_order_transversal/): A solution to perform level order traversal of a binary tree.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Binary Tree Level Order Traversal problem:
+
+
+1. **Breadth-First Search (BFS)**: Use a queue to traverse the tree level by level.
+    - complexity: O(n) time, O(n) space.
