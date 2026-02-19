@@ -670,3 +670,15 @@ Here are some possible approaches to solve the Binary Tree Level Order Traversal
 
 1. **Breadth-First Search (BFS)**: Use a queue to traverse the tree level by level.
     - complexity: O(n) time, O(n) space.
+
+
+### Binary Tree Right Side View
+
+- [Binary Tree Right Side View](trees/binary_tree_right_side_view/): A solution to find the right side view of a binary tree.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Binary Tree Right Side View problem:
+
+1. **Breadth-First Search (BFS)**: Use a queue to traverse the tree level by level and capture the last node of each level.
+    - complexity: O(n) time, O(n) space.
