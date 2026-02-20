@@ -682,3 +682,14 @@ Here are some possible approaches to solve the Binary Tree Right Side View probl
 
 1. **Breadth-First Search (BFS)**: Use a queue to traverse the tree level by level and capture the last node of each level.
     - complexity: O(n) time, O(n) space.
+
+### Count good nodes in binary tree
+
+- [Count good nodes in binary tree](trees/count_good_nodes_in_binary_tree/): A solution to count the number of good nodes in a binary tree.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Count Good Nodes in Binary Tree problem:
+
+1. **Depth-First Search (DFS)**: Use a recursive function to traverse the tree while keeping track of the maximum value seen so far to count good nodes.
+    - complexity: O(n) time, O(n) space (due to recursion stack).
