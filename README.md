@@ -693,3 +693,15 @@ Here are some possible approaches to solve the Count Good Nodes in Binary Tree p
 
 1. **Depth-First Search (DFS)**: Use a recursive function to traverse the tree while keeping track of the maximum value seen so far to count good nodes.
     - complexity: O(n) time, O(n) space (due to recursion stack).
+
+
+### Validate Binary Search Tree
+
+- [Validate Binary Search Tree](trees/validate_binary_search_tree/): A solution to determine if a binary tree is a valid binary search tree.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Validate Binary Search Tree problem:
+
+1. **Recursive Approach**: Use a recursive function to check if the value of each node is within a valid range defined by its ancestors.
+    - complexity: O(n) time, O(n) space (due to recursion stack).
