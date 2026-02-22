@@ -12,7 +12,7 @@ class Solution:
         n = 0
         stack = []
         cur = root
-        while cur and stack:
+        while cur or stack:
             while cur:
                 stack.append(cur)
                 cur = cur.left
