@@ -705,3 +705,14 @@ Here are some possible approaches to solve the Validate Binary Search Tree probl
 
 1. **Recursive Approach**: Use a recursive function to check if the value of each node is within a valid range defined by its ancestors.
     - complexity: O(n) time, O(n) space (due to recursion stack).
+
+### Kth smallest element in a BST
+
+- [Kth smallest element in a BST](trees/kth_smallest_element_in_bst/): A solution to find the kth smallest element in a binary search tree.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Kth Smallest Element in a BST problem:
+
+1. **Inorder Traversal**: Perform an inorder traversal of the BST and keep track of the count of nodes visited until reaching the kth smallest.
+    - complexity: O(n) time, O(n) space (due to the stack).
