@@ -716,3 +716,15 @@ Here are some possible approaches to solve the Kth Smallest Element in a BST pro
 
 1. **Inorder Traversal**: Perform an inorder traversal of the BST and keep track of the count of nodes visited until reaching the kth smallest.
     - complexity: O(n) time, O(n) space (due to the stack).
+
+### Binary Tree Maximum Path Sum
+
+- [Binary Tree Maximum Path Sum](trees/binary_tree_maximum_path_sum/): A solution to find the maximum path sum in a binary tree.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Binary Tree Maximum Path Sum problem:
+
+1. **Depth-First Search (DFS)**: Use a recursive function to calculate the maximum path sum at each node while keeping track of the global maximum.
+    - complexity: O(n) time, O(n) space (due to recursion stack).
+
