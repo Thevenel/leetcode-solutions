@@ -728,3 +728,13 @@ Here are some possible approaches to solve the Binary Tree Maximum Path Sum prob
 1. **Depth-First Search (DFS)**: Use a recursive function to calculate the maximum path sum at each node while keeping track of the global maximum.
     - complexity: O(n) time, O(n) space (due to recursion stack).
 
+### Serialize and Deserialize Binary Tree
+
+- [Serialize and Deserialize Binary Tree](trees/serialize_and_deserialize_binary_tree/): A solution to serialize a binary tree into a string and deserialize it back to a binary tree.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Serialize and Deserialize Binary Tree problem:
+
+1. **Depth-First Search (DFS)**: Use a recursive approach to serialize the tree in preorder traversal and deserialize it by reconstructing the tree from the serialized string.
+    - complexity: O(n) time, O(n) space (due to recursion stack and serialized string).
