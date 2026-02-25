@@ -25,6 +25,8 @@ class Solution:
             return root.val + max(left_max, right_max)
         dfs(root)
         return res[0]
+
+
 # Usage example:
 # Constructing the binary tree:
 #         1
