@@ -738,3 +738,19 @@ Here are some possible approaches to solve the Serialize and Deserialize Binary 
 
 1. **Depth-First Search (DFS)**: Use a recursive approach to serialize the tree in preorder traversal and deserialize it by reconstructing the tree from the serialized string.
     - complexity: O(n) time, O(n) space (due to recursion stack and serialized string).
+
+
+## Heaps / Priority Queues
+
+Below are some of the heap-related problems I've solved:
+
+### Kth largest element in a stream
+
+- [Kth largest element in a stream](heaps/kth_largest_element_in_a_stream/): A solution to find the kth largest element in a stream of numbers.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Kth Largest Element in a Stream problem:
+
+1. **Min Heap Approach**: Use a min heap to maintain the k largest elements seen so far. The root of the min heap will be the kth largest element.
+    - complexity: O(log k) time for each insertion, O(k) space.
