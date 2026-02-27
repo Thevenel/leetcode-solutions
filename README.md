@@ -753,3 +753,15 @@ Here are some possible approaches to solve the Kth Largest Element in a Stream p
 
 1. **Min Heap Approach**: Use a min heap to maintain the k largest elements seen so far. The root of the min heap will be the kth largest element.
     - complexity: O(log k) time for each insertion, O(k) space.
+
+
+### Last Stone Weight
+
+- [Last Stone Weight](heaps/last_stone_weight/): A solution to find the weight of the last remaining stone after repeatedly smashing the two heaviest stones together.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Last Stone Weight problem:
+
+1. **Max Heap Approach**: Use a max heap to repeatedly extract the two heaviest stones and smash them together until one or no stones remain.
+    - complexity: O(n log n) time, O(n) space.
