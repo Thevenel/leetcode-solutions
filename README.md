@@ -739,7 +739,6 @@ Here are some possible approaches to solve the Serialize and Deserialize Binary 
 1. **Depth-First Search (DFS)**: Use a recursive approach to serialize the tree in preorder traversal and deserialize it by reconstructing the tree from the serialized string.
     - complexity: O(n) time, O(n) space (due to recursion stack and serialized string).
 
-
 ## Heaps / Priority Queues
 
 Below are some of the heap-related problems I've solved:
