@@ -765,3 +765,14 @@ Here are some possible approaches to solve the Last Stone Weight problem:
 
 1. **Max Heap Approach**: Use a max heap to repeatedly extract the two heaviest stones and smash them together until one or no stones remain.
     - complexity: O(n log n) time, O(n) space.
+
+### K Closest Point to Origin
+
+- [K Closest Point to Origin](heaps/k_closest_point_to_origin/): A solution to find the k closest points to the origin in a 2D plane.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the K Closest Point to Origin problem:
+
+1. **Min Heap Approach**: Use a min heap to store the points based on their distance from the origin and extract the k closest points.
+    - complexity: O(n log n) time, O(n) space.
