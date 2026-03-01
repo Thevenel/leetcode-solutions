@@ -776,3 +776,17 @@ Here are some possible approaches to solve the K Closest Point to Origin problem
 
 1. **Min Heap Approach**: Use a min heap to store the points based on their distance from the origin and extract the k closest points.
     - complexity: O(n log n) time, O(n) space.
+
+### Kth Largest Element in an Array
+
+- [Kth Largest Element in an Array](heaps/kth_largest_element_in_an_array/): A solution to find the kth largest element in an unsorted array.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Kth Largest Element in an Array problem:
+
+1. **Sorting Approach**: Sort the array and return the element at the index corresponding to the kth largest.
+    - complexity: O(n log n) time, O(1) space (or O(n) if using a sorting algorithm that requires additional space).
+
+2. **Quickselect Approach**: Use the Quickselect algorithm to find the kth largest element without fully sorting the array.
+    - complexity: O(n) average time, O(n) worst-case time, O(1) space.
