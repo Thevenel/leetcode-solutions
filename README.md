@@ -790,3 +790,15 @@ Here are some possible approaches to solve the Kth Largest Element in an Array p
 
 2. **Quickselect Approach**: Use the Quickselect algorithm to find the kth largest element without fully sorting the array.
     - complexity: O(n) average time, O(n) worst-case time, O(1) space.
+
+
+### Task Scheduler
+
+- [Task Scheduler](heaps/task_scheduler/): A solution to find the least number of intervals needed to execute a list of tasks with a cooldown period.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Task Scheduler problem:
+
+1. **Max Heap Approach**: Use a max heap to schedule tasks based on their frequency and manage the cooldown period.
+    - complexity: O(n log n) time, O(n) space.
