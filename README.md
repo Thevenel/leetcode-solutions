@@ -802,3 +802,14 @@ Here are some possible approaches to solve the Task Scheduler problem:
 
 1. **Max Heap Approach**: Use a max heap to schedule tasks based on their frequency and manage the cooldown period.
     - complexity: O(n log n) time, O(n) space.
+
+### Design Twitter
+
+- [Design Twitter](heaps/design_twitter/): A solution to design a simplified version of Twitter where users can post tweets, follow/unfollow other users, and see the 10 most recent tweets in their news feed.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Design Twitter problem:
+
+1. **Hash Map and Min Heap Approach**: Use a hash map to store user data and a min heap to maintain the 10 most recent tweets for each user's news feed.
+    - complexity: O(n log k) time for retrieving news feed, O(n) space, where n is the number of tweets and k is the number of users followed.
