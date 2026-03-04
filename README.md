@@ -813,3 +813,15 @@ Here are some possible approaches to solve the Design Twitter problem:
 
 1. **Hash Map and Min Heap Approach**: Use a hash map to store user data and a min heap to maintain the 10 most recent tweets for each user's news feed.
     - complexity: O(n log k) time for retrieving news feed, O(n) space, where n is the number of tweets and k is the number of users followed.
+
+
+### Find Median from Data Stream
+
+- [Find Median from Data Stream](heaps/find_median_from_data_stream/): A solution to find the median of a stream of numbers.    
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Find Median from Data Stream problem:
+
+1. **Min and Max Heap Approach**: Use two heaps (a max heap for the lower half of numbers and a min heap for the upper half) to maintain the median efficiently.
+    - complexity: O(log n) time for adding a number, O(1) time for finding the median, O(n) space.
