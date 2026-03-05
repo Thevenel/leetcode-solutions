@@ -825,3 +825,19 @@ Here are some possible approaches to solve the Find Median from Data Stream prob
 
 1. **Min and Max Heap Approach**: Use two heaps (a max heap for the lower half of numbers and a min heap for the upper half) to maintain the median efficiently.
     - complexity: O(log n) time for adding a number, O(1) time for finding the median, O(n) space.
+
+
+## Backtracking
+
+Below are some of the backtracking-related problems I've solved:
+
+### Subsets
+
+- [Subsets](backtracking/subsets/): A solution to find all possible subsets of a given set of numbers.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Subsets problem:
+
+1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to explore all combinations of numbers and build subsets.
+    - complexity: O(n * 2^n) time, O(n) space, where n is the number of elements in the input set.
