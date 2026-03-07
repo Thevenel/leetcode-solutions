@@ -841,3 +841,14 @@ Here are some possible approaches to solve the Subsets problem:
 
 1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to explore all combinations of numbers and build subsets.
     - complexity: O(n * 2^n) time, O(n) space, where n is the number of elements in the input set.
+
+### Combination Sum
+
+- [Combination Sum](backtracking/combination_sum/): A solution to find all unique combinations of numbers that sum up to a target value.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Combination Sum problem:
+
+1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to explore all combinations of numbers while keeping track of the current sum and the target.
+    - complexity: O(n^m) time, O(m) space, where n is the number of candidates and m is the target value.
