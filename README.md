@@ -852,3 +852,15 @@ Here are some possible approaches to solve the Combination Sum problem:
 
 1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to explore all combinations of numbers while keeping track of the current sum and the target.
     - complexity: O(n^m) time, O(m) space, where n is the number of candidates and m is the target value.
+
+
+### Combination Sum II
+
+- [Combination Sum II](backtracking/combination_sum_2/): A solution to find all unique combinations of numbers that sum up to a target value, where each number can only be used once.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Combination Sum II problem:
+
+1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to explore all combinations of numbers while keeping track of the current sum and the target.
+    - complexity: O(2^n) time, O(n) space, where n is the number of candidates.
