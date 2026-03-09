@@ -864,3 +864,18 @@ Here are some possible approaches to solve the Combination Sum II problem:
 
 1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to explore all combinations of numbers while keeping track of the current sum and the target.
     - complexity: O(2^n) time, O(n) space, where n is the number of candidates.
+
+
+### Permutations
+
+- [Permutations](backtracking/permutations/): A solution to find all possible permutations of a given set of numbers.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Permutations problem:
+
+1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to explore all arrangements of numbers and build permutations.
+    - complexity: O(n * n!) time, O(n) space, where n is the number of elements in the input set.
+
+2. **Iterative Approach**: Use an iterative method to generate permutations by building them up from smaller subsets.
+    - complexity: O(n * n!) time, O(n) space, where n is the number of elements in the input set.
