@@ -879,3 +879,15 @@ Here are some possible approaches to solve the Permutations problem:
 
 2. **Iterative Approach**: Use an iterative method to generate permutations by building them up from smaller subsets.
     - complexity: O(n * n!) time, O(n) space, where n is the number of elements in the input set.
+
+
+### Subsets II
+
+- [Subsets II](backtracking/subsets_2/): A solution to find all possible subsets of a given set of numbers, where the input set may contain duplicates.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Subsets II problem:
+
+1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to explore all combinations of numbers while skipping duplicates to build unique subsets.
+    - complexity: O(n * 2^n) time, O(n) space, where n is the number of elements in the input set.
