@@ -891,3 +891,14 @@ Here are some possible approaches to solve the Subsets II problem:
 
 1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to explore all combinations of numbers while skipping duplicates to build unique subsets.
     - complexity: O(n * 2^n) time, O(n) space, where n is the number of elements in the input set.
+
+### Generate Parentheses
+
+- [Generate Parentheses](backtracking/generate_parentheses/): A solution to generate all combinations of well-formed parentheses for a given number of pairs.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Generate Parentheses problem:
+
+1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to build valid parentheses combinations by keeping track of the number of opening and closing parentheses used.
+    - complexity: O(4^n / sqrt(n)) time, O(n) space, where n is the number of pairs of parentheses.
