@@ -902,3 +902,14 @@ Here are some possible approaches to solve the Generate Parentheses problem:
 
 1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to build valid parentheses combinations by keeping track of the number of opening and closing parentheses used.
     - complexity: O(4^n / sqrt(n)) time, O(n) space, where n is the number of pairs of parentheses.
+
+### Word Search
+
+- [Word Search](backtracking/word_search/): A solution to determine if a given word exists in a 2D grid of characters.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Word Search problem:
+
+1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to explore the grid in all four directions while keeping track of the current position and the index of the word being matched.
+    - complexity: O(m * n * 4^k) time, O(k) space, where m and n are the dimensions of the grid and k is the length of the word.
