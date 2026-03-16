@@ -913,3 +913,14 @@ Here are some possible approaches to solve the Word Search problem:
 
 1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to explore the grid in all four directions while keeping track of the current position and the index of the word being matched.
     - complexity: O(m * n * 4^k) time, O(k) space, where m and n are the dimensions of the grid and k is the length of the word.
+
+### Palindrome Partitioning
+
+- [Palindrome Partitioning](backtracking/palindrome_partitioning/): A solution to partition a string into all possible palindrome substrings.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Palindrome Partitioning problem:
+
+1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to explore all possible partitions of the string and check if each partition is a palindrome.
+    - complexity: O(n * 2^n) time, O(n) space, where n is the length of the input string.
