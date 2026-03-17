@@ -924,3 +924,14 @@ Here are some possible approaches to solve the Palindrome Partitioning problem:
 
 1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to explore all possible partitions of the string and check if each partition is a palindrome.
     - complexity: O(n * 2^n) time, O(n) space, where n is the length of the input string.
+
+### Letter Combinations of a Phone Number
+
+- [Letter Combinations of a Phone Number](backtracking/letter_combinations_of_a_phone_number/): A solution to find all possible letter combinations that a given digit string could represent based on the mapping of digits to letters on a phone keypad.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Letter Combinations of a Phone Number problem:
+
+1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to build combinations of letters based on the input digit string and the corresponding letter mappings.
+    - complexity: O(4^n) time, O(n) space, where n is the length of the input digit string.
