@@ -935,3 +935,14 @@ Here are some possible approaches to solve the Letter Combinations of a Phone Nu
 
 1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to build combinations of letters based on the input digit string and the corresponding letter mappings.
     - complexity: O(4^n) time, O(n) space, where n is the length of the input digit string.
+
+### N-Queens
+
+- [N-Queens](backtracking/n_queens/): A solution to find all distinct solutions to the N-Queens problem, where N queens are placed on an N x N chessboard such that no two queens threaten each other.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the N-Queens problem:
+
+1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to place queens on the board while checking for conflicts with previously placed queens.
+    - complexity: O(N!) time, O(N) space, where N is the number of queens.
