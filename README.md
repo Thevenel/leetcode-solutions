@@ -946,3 +946,20 @@ Here are some possible approaches to solve the N-Queens problem:
 
 1. **Backtracking with Depth-First Search (DFS)**: Use a recursive function to place queens on the board while checking for conflicts with previously placed queens.
     - complexity: O(N!) time, O(N) space, where N is the number of queens.
+
+
+## Trie
+
+Below are some of the trie-related problems I've solved:
+
+### Implement Trie (Prefix Tree)
+
+- [Implement Trie (Prefix Tree)](trie/implement_trie/): A solution to implement a trie data structure for efficient retrieval of strings.
+
+#### Possible solutions
+
+Here are some possible approaches to solve the Implement Trie problem:
+
+1. **Trie Node Class**: Create a TrieNode class to represent each node in the trie, which contains a dictionary of children and a boolean to indicate if it's the end of a word.
+    - complexity: O(n) time for insert and search operations, O(n) space, where n is the length of the word being inserted or searched.
+
