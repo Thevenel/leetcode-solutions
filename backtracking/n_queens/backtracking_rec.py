@@ -37,7 +37,7 @@ n = 4
 result = solution.solveNQueens(n)
 for board in result:    
     for row in board:
-        print(row)    
+        print(row)
         print()
 # Output:
 # .Q..
